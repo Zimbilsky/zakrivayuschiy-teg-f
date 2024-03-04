@@ -12,3 +12,32 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes cursor {
+  0% {
+    left: -18px;
+  }
+
+  100% {
+    left: -14px;
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
